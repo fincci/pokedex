@@ -21,6 +21,10 @@
     transition: 0.15s ease-in-out;
 }
 
+.listagem .pokemon:hover {
+    transform: scale(1.1);
+}
+
 .listagem::-webkit-scrollbar {
     width: 10px;
 }
@@ -33,9 +37,7 @@
     background-image: radial-gradient(circle, rgb(85, 85, 85), #dadfe8);
 }
 
-.listagem .pokemon:hover {
-    transform: scale(1.1);
-}
+
 
 .listagem .pokemon img {
     width: 25%;
