@@ -25,6 +25,10 @@
     transform: scale(1.1);
 }
 
+.listagem .pokemon:active {
+    transform: scale(0.9);
+}
+
 .listagem::-webkit-scrollbar {
     width: 10px;
 }
@@ -37,8 +41,6 @@
     background-image: radial-gradient(circle, rgb(85, 85, 85), #dadfe8);
 }
 
-
-
 .listagem .pokemon img {
     width: 25%;
     border-radius: 50%;
@@ -47,7 +49,6 @@
 .listagem .pokemon span {
     padding-right: 20px;
 }
-
 
 .listagem .pokemon.ativo.tipo-eletrico {
     background-color: #f8d030;
