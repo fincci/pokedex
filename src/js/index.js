@@ -27,6 +27,7 @@ listaSelecaoPokemon.forEach(pokemon => {
         audioMouseOver.volume = 0.1;
         audioMouseOver.play();
     })
+
     pokemon.addEventListener('click', () => {
         audioClick.volume = 0.1;
         audioClick.play();
