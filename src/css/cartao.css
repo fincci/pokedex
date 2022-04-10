@@ -35,6 +35,12 @@
 .cartao-pokemon img {
     max-height: 100%;
     max-width: 100%;
+    animation: appear 0.5s;
+}
+
+@keyframes appear {
+    0% {transform: scale(0.1);}
+    100% {transform: scale(1);}
 }
 
 .cartao-pokemon .cartao-info {
