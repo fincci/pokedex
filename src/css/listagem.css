@@ -34,11 +34,12 @@
 }
 
 .listagem::-webkit-scrollbar-thumb {
-    background-image: radial-gradient(circle, grey, #dadfe8);
+    background-color: darkgrey;
+    border-radius: 10px;
 }
 
 .listagem::-webkit-scrollbar-thumb:hover {
-    background-image: radial-gradient(circle, rgb(85, 85, 85), #dadfe8);
+    background-color: grey;
 }
 
 .listagem .pokemon img {
