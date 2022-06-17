@@ -24,11 +24,13 @@ listaSelecaoPokemon.forEach(pokemon => {
     })
 
     pokemon.addEventListener('mouseenter', () => {
+        audioMouseOver.currentTime = 0;
         audioMouseOver.volume = 0.1;
         audioMouseOver.play();
     })
 
     pokemon.addEventListener('click', () => {
+        audioMouseOver.currentTime = 0;
         audioClick.volume = 0.1;
         audioClick.play();
     })
